@@ -24,8 +24,11 @@
 
     // Kodutöö 1 - 1
 
-    setlocale(LC_TIME, 'et_EE.utf8');                                   // näitame eesti keeles kuupäeva
-    $todayname ="<p> Täna on ". strftime('%A.');
+    $weekday_nr=date('w');                                                  // date(w) on PHP funktsioon on nädalapäevade numbriline definitsioon
+	                                                                        // moodustame listi/massiivi nädalapäevadega
+    $day_names=['pühapäev','esmaspäev','teisipäev','kolmapäev','neljapäev','reede','laupäev'];
+                                                                            // anname käsu võtta listist tänane päev ja kuvada seda.
+    $todaysweekdayhtml="<p> Täna on ". $day_names[$weekday_nr]."</p>"; 
 
     // Kodutöö 1 - 2
 
@@ -71,6 +74,7 @@
 <html>
 <head>   
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Veebirakendused ja nende loomine 2021</title>
 </head>
 <body>
@@ -88,7 +92,7 @@
         echo $iftoday;
         echo $semesterprogress_ver2;
         echo "<p>";
-        echo $todayname;
+        echo $todaysweekdayhtml;
     ?>
 
     <div class="row">
@@ -98,7 +102,7 @@
             <img class="img-fluid col-md-4 mb-3" src="<?php echo $picsdir .$picfiles[$randomphotofunc[1]]; ?>" alt="Suvaline pilt 2">
             <img class="img-fluid col-md-4 mb-3" src="<?php echo $picsdir .$picfiles[$randomphotofunc[2]]; ?>" alt="Suvaline pilt 3">
         </div>
-        <a class="col-12" href="www.smaily.com">Vaata koodi Githubist</a>
+        <a class="col-12" href="https://github.com/JaneMilvek/vr/blob/main/kodune_1.php">Vaata koodi Githubist</a>
     </div>
 </body>
 </html>
