@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+h1 {
+    font-size: 40px;
+}
+
+header {
+    text-align: left;
+    color:white;
+    padding: 50px;
+    width: auto;
+    background-color: #0e626c;
+    background-image: linear-gradient(#0e626c,#759ca9);
+}
+
+.topnav {
+    background-color:#759ca9;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.topnav a {
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.user_log_in {
+    padding: 20px;
+
+}
+
+.user_log_in label {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.user_log_in input[type=submit] {
+    background-color:#0e626c;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 213px; 
+  }
+
+.user_log_in input {
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px 20px;
+}
+
+.andmed {
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #0e626c;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+.fotode_import form{
+    padding: 20px;
+}
+
+.uudiste_lugemine {
+    padding: 20px;
+}
+
+.uudiste_lisamine {
+    padding: 20px;
+}
+
+.uudiste_lisamine label {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.uudiste_lisamine input[type=submit] {
+    background-color:#0e626c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 213px; 
+  }
+
+.uudiste_lisamine input {
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+
+.uudiste_lisamine textarea {
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+
+.uudiste_lugemine label {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.uudiste_lugemine input[type=submit] {
+    background-color:#0e626c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 213px; 
+  }
+
+.uudiste_lugemine input {
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+
+.kasutaja_loomine {
+    padding: 20px;
+}
+
+.kasutaja_loomine label {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.kasutaja_loomine input[type=submit] {
+    background-color:#0e626c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 213px; 
+  }
+
+.kasutaja_loomine input {
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
